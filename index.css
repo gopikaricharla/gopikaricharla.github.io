@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #f5f5f5;
+  height: 100vh;
+  width: 100vw;
+}
+
+.topbar {
+  height: 100px;
+  background-color: #0072ce;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: flex-start;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #0072ce;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: flex-start;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.controlcenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.controlcenter > * {
+  flex: 1;
+  border: 1px solid red;
+  height: calc(100vh - 150px);
+  min-width: 400px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.links > a {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #0072ce;
+  border-radius: 5px;
+  color: #0072ce;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.links > a:hover {
+  background-color: #0072ce;
+  color: #f5f5f5;
+}
