@@ -48,7 +48,7 @@ body {
 
 .controlcenter > * {
   flex: 1;
-  border: 1px solid red;
+  border: 1px solid #8a8281;
   height: calc(100vh - 150px);
   min-width: 400px;
 }
