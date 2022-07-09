@@ -44,7 +44,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .controlcenter > * {
@@ -60,6 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow-y: scroll;
+  position: relative;
 }
 
 .controlcenter a {
